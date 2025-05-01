@@ -1,0 +1,102 @@
+{
+    "name": "Controller",
+    "maps": [
+        {
+            "name": "LeftController",
+            "id": "807a12ef-1fc1-42d6-a482-89007acd8499",
+            "actions": [
+                {
+                    "name": "Grip",
+                    "type": "Value",
+                    "id": "36ef2729-2848-4dcf-8ee6-dd31b1090a25",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "e7dade57-5d19-4be1-9e02-41a7945f5995",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "285677e2-ab6a-4eef-873b-50a5c407bf38",
+                    "path": "<XRController>{LeftHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6cfca5b-2ef8-420e-8913-04ae3b526d0f",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightController",
+            "id": "2b998507-ae81-474b-a1fd-181f79f20e9c",
+            "actions": [
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "47b8176d-8544-43cc-b90c-893c33d11f8f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "8f04ab94-139b-4091-b6d6-9bfb250a80cb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ee0ea5b0-c87b-48bc-bc37-6438d3c62334",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "49ce6196-9518-4462-bc53-ae14186fe805",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
