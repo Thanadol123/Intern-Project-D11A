@@ -1,16 +1,19 @@
-# Fire Escape Simulation (Unity3D)
+# VR Tank Interior Simulation - D11A
 
-A 3D simulation project built with Unity C# during my internship at DTI.  
-The simulation helps train users on how to evacuate from a building in case of fire.
+A VR simulation created during my internship at DTI, designed to train users on the internal systems of the D11A military vehicle. The simulation allows users to freely explore the interior, view labeled components, and understand control systems.
 
-## Features
-- Realistic building layout and fire triggers
-- Interactive navigation using keyboard and mouse
-- Fire hazard logic and fail state
-- User interface with instruction panels
+## 🎯 Objectives
+- Help new personnel familiarize themselves with the tank's interior without needing physical access
+- Provide visual guidance on screen functions and button controls
 
-## Tools
+## 🚀 Features
+- Interactive camera tour of the tank interior
+- Info panels describing each device/monitor when gazed at
+- Zoom-in system for focusing on key components
+- Easy movement within confined space
+
+## 🛠️ Technologies Used
 - Unity 2021.3
 - C#
-- Photoshop (UI assets)
-
+- Oculus XR Plugin (Standalone VR)
+- Canvas-based UI for VR
